@@ -1,0 +1,1039 @@
+fileFormatVersion: 2
+guid: d207d92a78dc54547bba14334db0f114
+ModelImporter:
+  serializedVersion: 26
+  internalIDToNameTable:
+  - first:
+      74: 5397228813112130645
+    second: Elevator1_Action|Elevator2_Action
+  - first:
+      74: 1729606840909958432
+    second: Elevator1_Action|Elevator_Action
+  - first:
+      74: -7349797215542176444
+    second: Elevator1_Action|Subway_Action
+  - first:
+      74: 4778320553779699799
+    second: Elevator2_Action|Elevator2_Action
+  - first:
+      74: -4997560758159749729
+    second: Elevator2_Action|Subway_Action
+  - first:
+      74: -8075050436254048214
+    second: Subway_Action|Subway_Action
+  - first:
+      74: -8435859141871657802
+    second: Elevator1_Action|Elevator1_Action
+  - first:
+      74: 4706926373861463982
+    second: Elevator1_Open
+  - first:
+      74: 1558796192689526802
+    second: Elevator1_CloseAndDown
+  - first:
+      74: -8904242092621673941
+    second: Elevator1_Close
+  - first:
+      74: 5369897037187385856
+    second: Elevator2_Open
+  - first:
+      74: 1759287747910225765
+    second: Elevator2_CloseAndDown
+  - first:
+      74: 7737173456112833086
+    second: Elevator2_Close
+  - first:
+      74: -2511672925999552482
+    second: Subway_Open
+  - first:
+      74: -815722327021492118
+    second: Subway_Close
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M_CCTV_Black
+    second: {fileID: 2100000, guid: fc6aa2b54fc27c248b14114170779f65, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M_CCTV_White
+    second: {fileID: 2100000, guid: fb0aa976cc8d2184494620aa87ee04a6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M_Ceiling
+    second: {fileID: 2100000, guid: 50d63e071cc752e469834ba936ef5cc2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M_Column_Bottom
+    second: {fileID: 2100000, guid: 6992626c9e2bcc4439c40ccafa455c70, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M_Column_Middle
+    second: {fileID: 2100000, guid: 8960351f5561b3c4bbca2568a0020664, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M_Column_Middle2
+    second: {fileID: 2100000, guid: d19171c173a64714bb3b4a6114bceec7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M_Column_Top
+    second: {fileID: 2100000, guid: c179fcd02c20d254b8e5d38c2ffde4ac, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M_Door_Rubber
+    second: {fileID: 2100000, guid: de6332f92aa017a4497df8aaf776b217, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M_Door_Sign1
+    second: {fileID: 2100000, guid: 5b09bca5670bb8e4b9542188f4e3aa1a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M_Door_Sign2
+    second: {fileID: 2100000, guid: 5a3a66b22577aed44b1edb622dd846ad, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M_Door_Sign3
+    second: {fileID: 2100000, guid: dde8a932fbe65c149a730d6896f7b3e2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M_Door_Sign4
+    second: {fileID: 2100000, guid: d341bf75331731b45b616893794c222c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M_Elevator1_Bottom1
+    second: {fileID: 2100000, guid: e1203bc9dabafbe49bd7e166170557fc, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M_Elevator1_Bottom2_Metal
+    second: {fileID: 2100000, guid: eff98b052a60137498f0b5385d280750, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M_Elevator1_Box
+    second: {fileID: 2100000, guid: 850153eec9452314a80f537bc1570756, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M_Elevator1_Button1
+    second: {fileID: 2100000, guid: 1cfd7d7a9ac0d2b4683a3dbe3538d275, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M_Elevator1_Button2
+    second: {fileID: 2100000, guid: 407c6a548ab6a1e44b7e9e0670da2a0b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M_Elevator1_Button3
+    second: {fileID: 2100000, guid: 7635ed4a8bec89f4ea879e832f822356, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M_Elevator1_Button4
+    second: {fileID: 2100000, guid: 9a039225e5a1a9d4889700410257fb2d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M_Elevator1_In_Metal
+    second: {fileID: 2100000, guid: 210a5f65fe6935d4aa97a84263bd7258, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M_Elevator1_Inside_Metal_Mirror
+    second: {fileID: 2100000, guid: 4dab59bae5321eb48b200761e7f965f2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M_Elevator1_LED_Black
+    second: {fileID: 2100000, guid: cfdff44745e7ee7419900e43ffc43cad, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M_Elevator1_Number
+    second: {fileID: 2100000, guid: e38e0c692bdd01547a5756fc79c0b4ec, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M_Elevator1_Outside_Metal
+    second: {fileID: 2100000, guid: 51a85350c744cb941a8f11f74cefa677, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M_Elevator1_Top
+    second: {fileID: 2100000, guid: b574c1782f0c57a44b4091ccf6efb0d1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M_Elevator1_Top_Glass
+    second: {fileID: 2100000, guid: 301452f92c02cb441b69147ac6978268, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M_Elevator1_Top_Metal
+    second: {fileID: 2100000, guid: 44efe8a53ddb19c4183678385176fc08, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M_Elevator1_column
+    second: {fileID: 2100000, guid: 505b3837dd536bc4e9bc51f70cb9db53, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M_Elevator2_Box
+    second: {fileID: 2100000, guid: 87f8cf2f5a122dd41a8a7113fb60e939, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M_Elevator2_Box_Glass
+    second: {fileID: 2100000, guid: c73d5611eb6cc52429c37a2b94fda4ba, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M_Elevator2_Button1
+    second: {fileID: 2100000, guid: 205feb8331f8cee4c8bc2686a8823681, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M_Elevator2_Button2
+    second: {fileID: 2100000, guid: 04dc95f14f271f245938e0b55d60b863, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M_Elevator2_Number
+    second: {fileID: 2100000, guid: 155f3a37c610fc542b5cf57210dffa1c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M_Elevator_Button_Outside_B1
+    second: {fileID: 2100000, guid: 6204bf8c65af54c44827940abde004fe, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M_Elevator_Button_Outside_B2
+    second: {fileID: 2100000, guid: 13702052e060d3540b6cdbb74a255cfb, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M_Elevator_Sign
+    second: {fileID: 2100000, guid: 38ed48d4e7934d34da043ca54ddcd784, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M_Entrance
+    second: {fileID: 2100000, guid: ff5fccbd875534b4aabd117aec70e0da, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M_Entrance1_Title
+    second: {fileID: 2100000, guid: 94ae6bbf8f182d44495a330149a2743f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M_Entrance8_Info
+    second: {fileID: 2100000, guid: 9866cef42bb7ddb4582efec3f2ada3d3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M_Entrance8_Title
+    second: {fileID: 2100000, guid: 0c5c4a42aebc4cc43964dfa8790999f1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M_Entrance_Main
+    second: {fileID: 2100000, guid: 2e1893304e310fd40ab799144d97b040, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M_Entrance_Tile
+    second: {fileID: 2100000, guid: 584793e796f1fa741a6d680c75e7aead, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M_Entrance_Top
+    second: {fileID: 2100000, guid: 649e9a8a6e193c74ea2ead4131736124, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M_Escalator_Black
+    second: {fileID: 2100000, guid: 16a4fb4d487ac4441b54ae2986621c50, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M_Escalator_Front
+    second: {fileID: 2100000, guid: 9481d4ecb5d1f7444aa71df58ef7534c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M_Escalator_Top
+    second: {fileID: 2100000, guid: 8c1f8ac0b02596d448850c66a6c52b4d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M_Floor
+    second: {fileID: 2100000, guid: e651ca9964bea5846b82e9e7cbe406ee, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M_Info_Between
+    second: {fileID: 2100000, guid: 6a47d07841156f542973ca53aff03598, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M_Info_Door_Handle
+    second: {fileID: 2100000, guid: c0e059007f791294297b535af718dbdf, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M_Info_Door_Safety1
+    second: {fileID: 2100000, guid: d7ca4a4ecb9d977469f4686fad9f8c53, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M_Info_Door_Safety2
+    second: {fileID: 2100000, guid: 94aeb86164c582d49833eca083b9ff21, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M_Info_Main
+    second: {fileID: 2100000, guid: 82dbced48ddb5f54ca0ce272fda45b1d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M_Info_Title
+    second: {fileID: 2100000, guid: a0bdcdc32090abf4d92609d2b85c1c0a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M_Info_Window_Bottom
+    second: {fileID: 2100000, guid: a505f67a174e29249888ef76f0b8b609, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M_Info_Window_Middle
+    second: {fileID: 2100000, guid: 6e740e513a87d3948b1e517538d3f90d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M_Metal
+    second: {fileID: 2100000, guid: 8162d441ced6574459fb477f95200a1d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M_Metal_Door
+    second: {fileID: 2100000, guid: c14bfa4dfd32e314981788c24288fb2f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M_Metal_Elevator
+    second: {fileID: 2100000, guid: 16722e1e95c5c464abfee0d26a1da244, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M_Metal_Escalator
+    second: {fileID: 2100000, guid: 1bf051078623c7d4d9be22ade56285f7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M_Metal_UnderTheEscalator
+    second: {fileID: 2100000, guid: 7ef31f19e98af734ea8f0f28de0d8212, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M_Outside
+    second: {fileID: 2100000, guid: aafb3ea8e63b567428764efe9377031e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M_SafeDoor_Number_1_1
+    second: {fileID: 2100000, guid: 305731e951e467c46a7cb04709f00fcf, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M_SafeDoor_Number_1_2
+    second: {fileID: 2100000, guid: 4bb4761daa7195345bed3ae734156bd6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M_SafeDoor_Number_1_3
+    second: {fileID: 2100000, guid: 24be8a842dcdb614e8d200dcefb4f622, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M_SafeDoor_Number_1_4
+    second: {fileID: 2100000, guid: 7484ad9dc1c70a74d9650909e58b1e39, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M_SafeDoor_Number_2_1
+    second: {fileID: 2100000, guid: 6c1060cf0fd17f941a5b968f63efd006, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M_SafeDoor_Number_2_2
+    second: {fileID: 2100000, guid: d34636cd29f666541beb506cb34ae230, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M_SafeDoor_Number_2_3
+    second: {fileID: 2100000, guid: 9676be9ff1cd19d479fd4d954351e952, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M_SafeDoor_Number_2_4
+    second: {fileID: 2100000, guid: b81cabded62e1944ab980e5e077386c5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M_SafeDoor_Number_7_1
+    second: {fileID: 2100000, guid: b63a7a2c19c3e2244ba115a9db5c7294, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M_SafeDoor_Number_7_2
+    second: {fileID: 2100000, guid: 62fd8f76c6c10ba47bd5cd15e9e3f3fe, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M_SafeDoor_Number_7_3
+    second: {fileID: 2100000, guid: 1cb17c3e123291345ac8a9e3c65dc149, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M_SafeDoor_Number_7_4
+    second: {fileID: 2100000, guid: 8b37ba4294460ab449bb28afd9570c1e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M_SafeDoor_Number_8_1
+    second: {fileID: 2100000, guid: 2c77e66d74744894fb0c20a1214c7faf, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M_SafeDoor_Number_8_2
+    second: {fileID: 2100000, guid: 5ea637d3e922a934cafeebc22cb24308, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M_SafeDoor_Number_8_3
+    second: {fileID: 2100000, guid: 680302f5ea71ef24ba51cc7a9558538f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M_SafeDoor_Number_8_4
+    second: {fileID: 2100000, guid: 2e7fd1c3aa8e60e4b9931924d41c33b2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M_Sample
+    second: {fileID: 2100000, guid: 382e0496baf879246860a37494dcc6c0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M_Stair_Front
+    second: {fileID: 2100000, guid: c7ebd9a6dce79274bbf2e86e53d72718, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M_Stair_Front1
+    second: {fileID: 2100000, guid: 95f1556a1da463947802a433c9179651, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M_Stair_Top
+    second: {fileID: 2100000, guid: c0dad9ff7a7578048b0dfb020cbda6e1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M_Stair_Top3
+    second: {fileID: 2100000, guid: 53d81730170c8e942b7894983c4f92d0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M_StopPlease
+    second: {fileID: 2100000, guid: 95c3d0c00c797e947906c68fa069fc06, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M_Subway_AirConditioner
+    second: {fileID: 2100000, guid: a8929be10428f7f4da03311cdfed24a3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M_Subway_Board_Gray
+    second: {fileID: 2100000, guid: 97c1b7566aee88e42837431a2c3a915a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M_Subway_Board_White
+    second: {fileID: 2100000, guid: 5aadbb2bdc87f494080dd5bd79fae905, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M_Subway_Bottom
+    second: {fileID: 2100000, guid: c258e8eeebaee8b46871755c084abb33, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M_Subway_Box
+    second: {fileID: 2100000, guid: a1cc9791e69c1c949ac4b3031b323a6b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M_Subway_Handle_Plastic
+    second: {fileID: 2100000, guid: 663a0211aa339434a92355a15f93fea8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M_Subway_Handle_strap
+    second: {fileID: 2100000, guid: 39e73b7e9713f26448e580cf9dbdf7b7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M_Subway_In_Info1
+    second: {fileID: 2100000, guid: c43efe8671f037845a40b4795a08f88e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M_Subway_In_Info2
+    second: {fileID: 2100000, guid: c21c9e537f5f43248b7ca47f6307c39c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M_Subway_Light
+    second: {fileID: 2100000, guid: 1881a17217e38ce40a5cf85c3a7ff41f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M_Subway_Name
+    second: {fileID: 2100000, guid: 0f2f54ed8703fe54fb16314ddbf402df, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M_Subway_Name_a
+    second: {fileID: 2100000, guid: 5a37fcfabdef05240aa3d87a06304764, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M_Subway_SafeDoor_EmergencySign
+    second: {fileID: 2100000, guid: 6b460a08c53540a4a9ccb3e19a4cf44a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M_Subway_SafeDoor_LED1
+    second: {fileID: 2100000, guid: 41e5272ab2892114d8db21fd3d275ba4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M_Subway_SafeDoor_LED2
+    second: {fileID: 2100000, guid: 8853f127714d4b8448095bf4655a3fb9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M_Subway_SafeDoor_LED3
+    second: {fileID: 2100000, guid: 566b62e5213e9ea4db7251296d54b8b2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M_Subway_SafeDoor_LED4
+    second: {fileID: 2100000, guid: dc80e3cfefe1f5c4091765ea3cd9c516, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M_Subway_SafeDoor_Light
+    second: {fileID: 2100000, guid: a96db189bb8cee24796b4da73f564177, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M_Subway_SafeDoor_Main
+    second: {fileID: 2100000, guid: 835c40a5e87724b4a834582d6e7c6073, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M_Subway_SafeDoor_Message1
+    second: {fileID: 2100000, guid: 1bbfeb9309ddd20478fc37a5c75de2f8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M_Subway_SafeDoor_Message2
+    second: {fileID: 2100000, guid: 7ba4d5f10f69c51449abf9a103471e4d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M_Subway_SafeDoor_YellowHandle
+    second: {fileID: 2100000, guid: d6764a9c0f541eb4790c214b681ecd0a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M_Subway_SafeDoor_handle
+    second: {fileID: 2100000, guid: 40e05ba3566e72b47b2a2cb870a0f928, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M_Subway_Seat
+    second: {fileID: 2100000, guid: 085d4750ec3bb2141beebbec373e5af8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M_Subway_Seat_Back_Metal
+    second: {fileID: 2100000, guid: b36bcc2d9f1fcda4db565846526caefe, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M_Subway_Seat_Bottom_Metal
+    second: {fileID: 2100000, guid: af68108008628274f92629d85a6e96ef, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M_Subway_Seat_White
+    second: {fileID: 2100000, guid: db820c2bcc9351b41bb576e971757a94, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M_Subway_Shelf_Metal
+    second: {fileID: 2100000, guid: acbee8673891ec14b98dc40dee31ea3e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M_Wall_In
+    second: {fileID: 2100000, guid: acacac02a289dc5478245b2404e1e420, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M_Wall_In_Black
+    second: {fileID: 2100000, guid: 1dc1b4246c881d949add2961112a7a43, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M_Wall_Out
+    second: {fileID: 2100000, guid: 66cab856b30883a42b76543bf95a6859, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M_Window
+    second: {fileID: 2100000, guid: 67725ee438cbc0b4884476f1f738fba4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M_Window_Black
+    second: {fileID: 2100000, guid: 9e8e63ec1e447a349b26d4c4107336e9, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Elevator2_Action|Elevator2_Action
+      takeName: Elevator2_Action|Elevator2_Action
+      internalID: 4778320553779699799
+      firstFrame: 0
+      lastFrame: 410
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Subway_Action|Subway_Action
+      takeName: Subway_Action|Subway_Action
+      internalID: -8075050436254048214
+      firstFrame: 0
+      lastFrame: 145
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Elevator1_Action|Elevator1_Action
+      takeName: Elevator1_Action|Elevator1_Action
+      internalID: -8435859141871657802
+      firstFrame: 0
+      lastFrame: 1030
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Elevator1_Open
+      takeName: Elevator1_Action|Elevator1_Action
+      internalID: 4706926373861463982
+      firstFrame: 0
+      lastFrame: 60
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Elevator1_CloseAndDown
+      takeName: Elevator1_Action|Elevator1_Action
+      internalID: 1558796192689526802
+      firstFrame: 820
+      lastFrame: 1030
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Elevator1_Close
+      takeName: Elevator1_Action|Elevator1_Action
+      internalID: -8904242092621673941
+      firstFrame: 495
+      lastFrame: 525
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Elevator2_Open
+      takeName: Elevator2_Action|Elevator2_Action
+      internalID: 5369897037187385856
+      firstFrame: 0
+      lastFrame: 75
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Elevator2_CloseAndDown
+      takeName: Elevator2_Action|Elevator2_Action
+      internalID: 1759287747910225765
+      firstFrame: 75
+      lastFrame: 255
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Elevator2_Close
+      takeName: Elevator2_Action|Elevator2_Action
+      internalID: 7737173456112833086
+      firstFrame: 225
+      lastFrame: 285
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Subway_Open
+      takeName: Subway_Action|Subway_Action
+      internalID: -2511672925999552482
+      firstFrame: 0
+      lastFrame: 75
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Subway_Close
+      takeName: Subway_Action|Subway_Action
+      internalID: -815722327021492118
+      firstFrame: 75
+      lastFrame: 115
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 1
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 0
+    importLights: 0
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    meshOptimizationFlags: -1
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 3
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 1
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
